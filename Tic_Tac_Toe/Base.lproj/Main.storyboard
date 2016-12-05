@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="398-dO-dIz">
+                                <rect key="frame" x="11" y="42" width="351" height="321"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M95-04-dzL">
+                                <rect key="frame" x="11" y="42" width="109" height="104"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i0M-3V-Xb2">
+                                <rect key="frame" x="133" y="42" width="109" height="104"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="txx-Ub-jMj">
+                                <rect key="frame" x="253" y="42" width="109" height="104"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kzq-y8-rdX">
+                                <rect key="frame" x="12" y="154" width="109" height="96"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="swN-SJ-Teo">
+                                <rect key="frame" x="134" y="154" width="109" height="96"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6GO-m2-gLH">
+                                <rect key="frame" x="254" y="154" width="109" height="96"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="poE-cM-aJ0">
+                                <rect key="frame" x="11" y="263" width="109" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1e7-jZ-x4R">
+                                <rect key="frame" x="133" y="263" width="109" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KR1-wc-I1v">
+                                <rect key="frame" x="253" y="263" width="109" height="100"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXy-ow-Ecw">
+                                <rect key="frame" x="234" y="407" width="128" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.61787680753048979" blue="0.73007957851679506" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Reset Button"/>
+                                <connections>
+                                    <action selector="resetBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XkK-Ka-1ON"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mg-4k-Nkt">
+                                <rect key="frame" x="20" y="407" width="184" height="36"/>
+                                <color key="backgroundColor" red="0.95289492139297405" green="1" blue="0.79654646682593389" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.65125179577362802" green="0.88393002663820275" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="resetBtn" destination="CXy-ow-Ecw" id="ygT-eg-aKn"/>
+                        <outlet property="s1" destination="M95-04-dzL" id="dtJ-oc-mCJ"/>
+                        <outlet property="s2" destination="i0M-3V-Xb2" id="Gh7-6o-Uko"/>
+                        <outlet property="s3" destination="txx-Ub-jMj" id="JPh-OZ-NUh"/>
+                        <outlet property="s4" destination="kzq-y8-rdX" id="dVH-bw-E5I"/>
+                        <outlet property="s5" destination="swN-SJ-Teo" id="yDP-Ti-EYF"/>
+                        <outlet property="s6" destination="6GO-m2-gLH" id="nPb-6U-Ji1"/>
+                        <outlet property="s7" destination="poE-cM-aJ0" id="OYD-d2-2NQ"/>
+                        <outlet property="s8" destination="1e7-jZ-x4R" id="9m1-AO-ttk"/>
+                        <outlet property="s9" destination="KR1-wc-I1v" id="Q6E-eP-FFN"/>
+                        <outlet property="whoseTurn" destination="2mg-4k-Nkt" id="Iyr-wM-wEU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="422.5" y="294.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="board.png" width="225" height="225"/>
+    </resources>
+</document>
